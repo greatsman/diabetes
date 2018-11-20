@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^daftar$ index.php?halaman=daftar [QSA]
+RewriteRule ^login$ index.php?halaman=login [QSA]
+RewriteRule ^data$ index.php?halaman=data [QSA]
+RewriteRule ^pilihmenu$ index.php?halaman=pilih_menu [QSA]

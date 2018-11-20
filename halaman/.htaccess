@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^daftar 				index.php?halaman=daftar [QSA]
+RewriteRule ^login 					index.php?halaman=login [QSA]
+RewriteRule ^data 					index.php?halaman=data [QSA]
+RewriteRule ^pilihmenu 				index.php?halaman=pilih_menu [QSA]
+RewriteRule ^edit&id([0-9a-zA-Z]+)	index.php?halaman=edit_data_diri&id=$1
+RewriteRule ^logout					logout.php

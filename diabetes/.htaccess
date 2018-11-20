@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^data 						index.php?halaman=data [QSA]
+RewriteRule ^pilihmenu 					index.php?halaman=pilih_menu [QSA]
+RewriteRule ^edit&id([0-9a-zA-Z]+)		index.php?halaman=edit_data_diri&id=$1 [QSA]
+RewriteRule ^logout						halaman/logout.php [QSA]
+RewriteRule ^riwayat 					index.php?halaman=riwayat_menu_makan [QSA]
+RewriteRule ^detail&id([0-9a-zA-Z]+)	index.php?halaman=detail_menu_makan&id=$1 [QSA]
+RewriteRule ^hapus&id([0-9a-zA-Z]+)	    index.php?halaman=hapus_data_menu&id=$1 [QSA]
